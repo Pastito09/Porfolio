@@ -39,7 +39,6 @@ function classNames(...classes: string[]) {
 
 export const Navbar = () => {
   const pathname = usePathname();
-  console.log(pathname);
 
   return (
     <>

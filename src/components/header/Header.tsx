@@ -61,7 +61,7 @@ export const Header = () => {
 
           <div className='hidden md:block'>
             <Image
-              className='rounded-full '
+              className='rounded-full'
               src={'/perfil.jpg'}
               height={550}
               width={250}
