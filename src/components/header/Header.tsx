@@ -62,11 +62,11 @@ export const Header = () => {
           <div className='hidden md:block'>
             <Image
               className='rounded-full'
-              src={'/perfil.jpg'}
+              src='/perfil.jpg'
               height={550}
               width={250}
               quality={100}
-              alt='hola'
+              alt='Foto de perfíl de Patricio Zienka Hogan'
             />
           </div>
         </div>
