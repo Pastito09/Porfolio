@@ -7,19 +7,23 @@ export const Header = () => {
       <header className='bg-white shadow-sm'>
         <div className='mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8 flex justify-between items-center'>
           <div>
-            <h1 className='text-4xl text-center font-bold tracking-tight text-gray-900 mt-2 mb-4'>
+            <h1 className='text-4xl text-center antialiased font-bold tracking-tight text-gray-900 mt-2 mb-4'>
               Patricio Augusto Zienka Hogan
             </h1>
             <div className='flex flex-col gap-1 ms-1'>
               <div>
-                <span className='text-sm font-bold'>Dirección: </span>
-                <span className='text-sm ms-2'>
+                <span className='text-sm font-bold antialiased'>
+                  Dirección:{' '}
+                </span>
+                <span className='text-sm ms-2 antialiased'>
                   Almagro, CABA. Buenos Aires, Argentina.
                 </span>
               </div>
               <div>
-                <span className='text-sm font-bold'>Email: </span>
-                <span className='text-sm ms-8'>
+                <span className='text-sm font-bold antialiased'>
+                  Email:{' '}
+                </span>
+                <span className='text-sm ms-8 antialiased'>
                   <Link
                     href={'mailto:patriciozhogan@gmail.com'}
                     className='hover:underline cursor-pointer'
@@ -36,7 +40,7 @@ export const Header = () => {
                       'https://www.linkedin.com/in/patricio-augusto-zienka-hogan-828484a5/'
                     }
                   >
-                    <small className='text-sm font-bold'>
+                    <small className='text-sm font-bold antialiased'>
                       » Perfíl de LinkedIn{' '}
                     </small>
                   </Link>
@@ -46,7 +50,7 @@ export const Header = () => {
                     target='_blank'
                     href={'https://github.com/Pastito09'}
                   >
-                    <small className='text-sm font-bold'>
+                    <small className='text-sm font-bold antialiased'>
                       » Perfíl de Github{' '}
                     </small>
                   </Link>

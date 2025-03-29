@@ -3,15 +3,11 @@ import {
   Disclosure,
   DisclosureButton,
   DisclosurePanel,
-  Menu,
-  MenuButton,
-  MenuItem,
-  MenuItems,
 } from '@headlessui/react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { ReactNode } from 'react';
+
 // import {
 //   Bars3Icon,
 //   BellIcon,
@@ -73,8 +69,8 @@ export const Navbar = () => {
                           }
                           className={classNames(
                             item.href === pathname
-                              ? 'bg-gray-900 text-white'
-                              : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                              ? 'bg-gray-900 text-white antialiased'
+                              : 'text-gray-300 hover:bg-gray-700 antialiased hover:text-white',
                             'rounded-md px-3 py-2 text-sm font-medium'
                           )}
                         >
@@ -168,9 +164,9 @@ export const Navbar = () => {
                     }
                     className={classNames(
                       item.href === pathname
-                        ? 'bg-gray-900 text-white'
-                        : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                      'block rounded-md px-3 py-2 text-base font-medium'
+                        ? 'bg-gray-900 text-white antialiased'
+                        : 'text-gray-300 hover:bg-gray-700 antialiased hover:text-white',
+                      'block rounded-md px-3 py-2 text-base font-medium antialiased'
                     )}
                   >
                     {item.name}

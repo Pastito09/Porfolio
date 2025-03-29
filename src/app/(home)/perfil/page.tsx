@@ -1,7 +1,9 @@
+import StyleContainer from '@/components/ui/contenedor/StyleContainer';
+
 export default function PerfilPage() {
   return (
-    <div>
-      <h1>Hello Page</h1>
-    </div>
+    <StyleContainer>
+      <div>Sobre mi</div>
+    </StyleContainer>
   );
 }
