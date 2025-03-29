@@ -139,7 +139,7 @@ export const Navbar = () => {
                     )}
 
                     <Image
-                      src={'/perfil.jpg'}
+                      src={'/perfil.JPG'}
                       width={60}
                       height={60}
                       quality={100}

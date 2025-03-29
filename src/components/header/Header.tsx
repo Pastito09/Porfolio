@@ -27,6 +27,7 @@ export const Header = () => {
                   <Link
                     href={'mailto:patriciozhogan@gmail.com'}
                     className='hover:underline cursor-pointer'
+                    target='_blank'
                   >
                     patriciozhogan@gmail.com
                   </Link>
@@ -62,7 +63,7 @@ export const Header = () => {
           <div className='hidden md:block'>
             <Image
               className='rounded-full'
-              src='/perfil.jpg'
+              src='/perfil.JPG'
               height={550}
               width={250}
               quality={100}

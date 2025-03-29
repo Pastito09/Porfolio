@@ -32,7 +32,7 @@ export default function EstudiosPage() {
                   src={curso.imagen}
                   width={70}
                   height={50}
-                  alt='hola'
+                  alt='Logo de la institución educativa'
                   quality={100}
                   className='me-5 rounded-md hidden md:block'
                 />
