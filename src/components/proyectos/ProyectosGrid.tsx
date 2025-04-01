@@ -35,7 +35,7 @@ export const ProyectosGrid = () => {
 
                 <Link href={github} target='_blank'>
                   <span className='flex flex-row justify-center'>
-                    <small className='mt-2 me-1 hover:underline '>
+                    <small className='mt-2 me-1 hover:underline hidden md:block'>
                       Github
                     </small>
                     <IoLogoGithub size={30} className='' />

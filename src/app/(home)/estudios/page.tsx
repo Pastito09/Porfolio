@@ -13,13 +13,18 @@ export default function EstudiosPage() {
         title={'Estudios y certificaciones'}
         styles='text-4xl text-center border-b border-gray-200 pb-10 mt-5 md:mt-0 font-semibold antialiased'
       />
+      <div className='text-center pt-2 m-2'>
+        <span className='text-center text-sm'>
+          Podés clickear en los cursos para más información.
+        </span>
+      </div>
       <div className='flex flex-col w-full'>
         {cursos.map((curso) => (
           <Link href={curso.url} key={curso.id} target='_blank'>
             <div className='flex flex-col w-full p-4 shadow-sm  rounded-md mt-5'>
               <div className='flex flex-col md:flex-row justify-between'>
                 <div className='flex flex-row gap-5'>
-                  <h3 className='text-2xl text-gray-800 antialiased font-semibold'>
+                  <h3 className='text-xl md:text-2xl text-gray-800 antialiased text-center font-semibold'>
                     {curso.nombre}
                   </h3>
 

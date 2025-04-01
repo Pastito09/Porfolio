@@ -122,7 +122,7 @@ export const Navbar = () => {
                 </Menu>
               </div>
             </div> */}
-                <div className='-mr-2 flex md:hidden'>
+                <div className='-mr-2 flex md:hidden '>
                   {/* Mobile menu button */}
 
                   <DisclosureButton className='group relative inline-flex items-center justify-center rounded-md bg-gray-800 p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 focus:outline-hidden'>
@@ -140,8 +140,8 @@ export const Navbar = () => {
 
                     <Image
                       src={'/perfil.JPG'}
-                      width={60}
-                      height={60}
+                      width={65}
+                      height={70}
                       quality={100}
                       alt='foto de perfil'
                       className='rounded-full '
