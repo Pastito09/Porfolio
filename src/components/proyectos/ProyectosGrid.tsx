@@ -26,7 +26,7 @@ export const ProyectosGrid = () => {
                 <Link
                   href={web || ''}
                   target='_blank'
-                  className='mt-2'
+                  className='m-2'
                 >
                   <small className='text-gray-800 hover:text-gray-600'>
                     Ir a la página
