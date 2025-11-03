@@ -9,7 +9,7 @@ interface Proyecto {
 
 export const proyectos: Proyecto[] = [
   {
-    id: 1,
+    id: 3,
     nombre: `Tienda de Ropa "Teslo | Shop"`,
     descripcion:
       'Desarrollo de una tienda de ropa con Next.js, autenticación de usuarios con roles, gestión de productos, carrito de compras, pagos con PayPal y base de datos para almacenar información, asegurando seguridad y rendimiento.',
@@ -29,7 +29,24 @@ export const proyectos: Proyecto[] = [
     web: 'https://tienda-ropa-udemy-pato-hogan.vercel.app',
   },
   {
-    id: 3,
+    id: 2,
+    nombre: 'De Espacios Centro Terapéutico',
+    descripcion:
+      'Pagina web para el centro terapéutico De Espacios, donde se brindan servicios de psicología, acompañamientos terapeuticos y talleres grupales. La web cuenta con información sobre los profesionales, los servicios ofrecidos, y medios de contacto.',
+    tecnologias: [
+      'Next.js',
+      'Tailwind CSS',
+      'Bootstrap',
+      'React Hook Form',
+      'JavaScript',
+      'Node.js',
+      'React.js',
+    ],
+    github: 'https://github.com/Pastito09/DeEspacios',
+    web: 'https://deespacios.com.ar',
+  },
+  {
+    id: 1,
     nombre: 'Agenda Cultural',
     descripcion:
       'Aplicación web para gestionar eventos culturales, con registro de usuarios, creación de eventos y visualización de la agenda.',
@@ -37,15 +54,15 @@ export const proyectos: Proyecto[] = [
       'Next.js',
       'TypeScript',
       'Node.js',
-      'Express',
-
-      'Prisma',
       'Tailwind CSS',
+      'Shadcn UI',
+      'NeonTech',
+      'Prisma',
       'Server Actions',
       'NextAuth',
     ],
     github: 'https://github.com/Pastito09/Calendario-cultural',
-    web: 'https://calendario-cultural.vercel.app',
+    web: 'https://agendadecultura.vercel.app',
   },
 
   {
